@@ -1,0 +1,126 @@
+{
+    "id": 150624964,
+    "accountName": "Magazine Luiza - NERUS",
+    "marketPlaceId": "LU-1308670710530340",
+    "marketPlaceNumber": "LU-1308670710530340",
+    "marketPlace": "MAGAZINE_LUIZA",
+    "createdAt": "2024-02-01T23:41:21Z",
+    "paymentDate": "2024-02-01T23:42:13Z",
+    "transmissionStatus": "OK",
+    "status": "PAID_WAITING_DELIVERY",
+    "invoice": {
+        "accessKey": "29240236213646002652550030000456041000450998",
+        "series": "3",
+        "number": "45604",
+        "date": "2024-02-05T10:23:47Z"
+    },
+    "marketPlaceStatus": "SHIPPED",
+    "discount": 0.0,
+    "freight": 43.0,
+    "sellerFreight": 0.0,
+    "interestValue": 0.0,
+    "gross": 959.8,
+    "total": 1002.8,
+    "shipping": {
+        "city": "CAMACARI",
+        "state": "BA",
+        "stateNameNormalized": "Bahia",
+        "country": "Brasil",
+        "countryAcronymNormalized": "BR",
+        "countryNameNormalized": "BRASIL",
+        "address": "ALICE UZEDA, 24,  Em frente ao ferro velho de IZAEL - VILA DE ABRANTES (ABRANTES)",
+        "number": "24",
+        "neighborhood": "VILA DE ABRANTES (ABRANTES)",
+        "street": "ALICE UZEDA",
+        "comment": "Em frente ao ferro velho de IZAEL",
+        "zipCode": "42827670",
+        "receiverName": "Brenda Santos",
+        "promisedShippingTime": "2024-02-07T06:00:00Z"
+    },
+    "anymarketAddress": {
+        "country": "Brasil",
+        "state": "BA",
+        "stateAcronymNormalized": "BA",
+        "city": "CAMACARI",
+        "zipCode": "42827670",
+        "neighborhood": "VILA DE ABRANTES (ABRANTES)",
+        "address": "ALICE UZEDA, 24,  Em frente ao ferro velho de IZAEL - VILA DE ABRANTES (ABRANTES)",
+        "street": "ALICE UZEDA",
+        "number": "24",
+        "comment": "Em frente ao ferro velho de IZAEL",
+        "receiverName": "Brenda Santos",
+        "promisedShippingTime": "2024-02-07T06:00:00Z"
+    },
+    "buyer": {
+        "name": "Brenda Amorim",
+        "email": "LU-1308670710530349@alias.integracommerce.com.br",
+        "document": "86425150580",
+        "documentType": "CPF",
+        "documentNumberNormalized": "86425150580"
+    },
+    "tracking": {
+        "number": "55098",
+        "carrier": "Baianao Moveis",
+        "date": "2024-02-05T10:24:00Z",
+        "estimateDate": "2024-02-15T03:00:00Z",
+        "shippedDate": "2024-02-05T10:24:00Z"
+    },
+    "payments": [
+        {
+            "method": "pix",
+            "value": 1002.8,
+            "installments": 1,
+            "marketplaceId": "0",
+            "paymentMethodNormalized": "PIX",
+            "paymentDetailNormalized": "PIX"
+        }
+    ],
+    "items": [
+        {
+            "product": {
+                "id": 262959423,
+                "title": "Lavadora 10kg Suggar Lavamax Eco LE1001"
+            },
+            "sku": {
+                "id": 88494280,
+                "title": "Lavadora 10kg Suggar Lavamax Eco LE1001",
+                "partnerId": "0063270001",
+                "ean": "7896518513117"
+            },
+            "amount": 2,
+            "unit": 479.9,
+            "gross": 959.8,
+            "total": 959.8,
+            "discount": 0.0,
+            "shippings": [
+                {
+                    "id": 355246137,
+                    "shippingtype": "Baianão",
+                    "shippingCarrierNormalized": "UNKNOWN",
+                    "shippingCarrierTypeNormalized": "UNKNOWN"
+                }
+            ],
+            "idInMarketPlace": "0063270001",
+            "orderItemId": 175547261,
+            "freeShipping": false,
+            "stocks": [
+                {
+                    "stockLocalId": 41600,
+                    "amount": 2.0,
+                    "stockName": "Estoque Físico"
+                }
+            ]
+        }
+    ],
+    "deliverStatus": "UNKNOWN",
+    "idAccount": 29714,
+    "fulfillment": true,
+    "metadata": {
+        "needInvoiceXML": "true",
+        "fiscalDocumentFileType": "xml",
+        "blocked_update_invoiced": "true"
+    },
+    "documentIntermediator": "47960950000121",
+    "intermediateRegistrationId": "Baianao Moveis",
+    "documentPaymentInstitution": "17948578000177"
+}
