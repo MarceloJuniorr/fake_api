@@ -1,0 +1,15 @@
+version: "3.7"
+services:
+  fake_api:
+    image: marcelogbjunior/fake_api:1.0.0
+    network_mode: "host"
+    container_name: fake_api
+    environment:
+      - PORT=3000
+    ports:
+      - 3000
+    volumes:
+      - ".:/web"
+      - "./return:/web/src/return"
+
+    restart: always
