@@ -11,7 +11,7 @@ const app = express();
 const port = process.env.PORT || 8888 ;
 const getStatusCode = process.env.GET_STATUS_CODE || 200 ;
 const postStatusCode = process.env.POST_STATUS_CODE || 200 ;
-const putStatusCode = process.env.PUT_STATUS_CODE || 200 ;
+const putStatusCode = process.env.PUT_STATUS_CODE ? parseInt( process.env.PUT_STATUS_CODE )  : 200 ;
 
 
 
@@ -27,7 +27,7 @@ app.post("/*", (req, res) => {
 
 app.put ("/*", (req, res) => {
     console.log('PUT: ', req.url);
-    res.status(200).send(put || "")
+    res.status( putStatusCode ).send(put || "")
 });
 
 app.listen(port);
