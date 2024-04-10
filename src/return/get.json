@@ -1,107 +1,95 @@
 {
-    "id": 150624964,
-    "accountName": "COLOMBO",
-    "marketPlaceId": "13086707105303400",
-    "marketPlaceNumber": "13086707105303400",
-    "marketPlace": "COLOMBO",
-    "createdAt": "2024-02-01T23:41:21Z",
-    "paymentDate": "2024-02-01T23:42:13Z",
+    "id": 159825701,
+    "accountName": "Amazon - Baianão",
+    "marketPlaceId": "701-8191112-1130642",
+    "marketPlaceNumber": "701-8191112-1130642",
+    "marketPlace": "AMAZON",
+    "createdAt": "2024-04-06T21:31:38Z",
+    "paymentDate": "2024-04-06T21:31:38Z",
     "transmissionStatus": "OK",
-    "status": "PAID_WAITING_DELIVERY",
-    "invoice": {
-        "accessKey": "29240236213646002652550030000456041000450998",
-        "series": "3",
-        "number": "45604",
-        "date": "2024-02-05T10:23:47Z"
-    },
-    "marketPlaceStatus": "SHIPPED",
+    "status": "INVOICED",
+    "marketPlaceStatus": "Faturado",
     "discount": 0.0,
-    "freight": 43.0,
+    "freight": 0.0,
     "sellerFreight": 0.0,
     "interestValue": 0.0,
-    "gross": 959.8,
-    "total": 1002.8,
+    "gross": 238.0,
+    "total": 238.0,
     "shipping": {
-        "city": "CAMACARI",
-        "state": "BA",
-        "stateNameNormalized": "Bahia",
-        "country": "Brasil",
+        "city": "Apucarana",
+        "state": "PR",
+        "stateNameNormalized": "Paraná",
+        "country": "BR",
         "countryAcronymNormalized": "BR",
         "countryNameNormalized": "BRASIL",
-        "address": "ALICE UZEDA, 24,  Em frente ao ferro velho de IZAEL - VILA DE ABRANTES (ABRANTES)",
-        "number": "24",
-        "neighborhood": "VILA DE ABRANTES (ABRANTES)",
-        "street": "ALICE UZEDA",
-        "comment": "Em frente ao ferro velho de IZAEL",
-        "zipCode": "42827670",
-        "receiverName": "Brenda Santos",
-        "promisedShippingTime": "2024-02-07T06:00:00Z"
+        "address": "Rua Jefferson Fernando Boiça, 167 - Jardim Catuaí",
+        "number": "167",
+        "neighborhood": "Jardim Catuaí",
+        "street": "Rua Jefferson Fernando Boiça",
+        "zipCode": "86802608",
+        "receiverName": "Joelma Cristina Paiva",
+        "promisedShippingTime": "2024-04-27T02:59:59Z"
     },
     "anymarketAddress": {
-        "country": "Brasil",
-        "state": "BA",
-        "stateAcronymNormalized": "BA",
-        "city": "CAMACARI",
-        "zipCode": "42827670",
-        "neighborhood": "VILA DE ABRANTES (ABRANTES)",
-        "address": "ALICE UZEDA, 24,  Em frente ao ferro velho de IZAEL - VILA DE ABRANTES (ABRANTES)",
-        "street": "ALICE UZEDA",
-        "number": "24",
-        "comment": "Em frente ao ferro velho de IZAEL",
-        "receiverName": "Brenda Santos",
-        "promisedShippingTime": "2024-02-07T06:00:00Z"
+        "country": "BR",
+        "state": "PR",
+        "stateAcronymNormalized": "PR",
+        "city": "Apucarana",
+        "zipCode": "86802608",
+        "neighborhood": "Jardim Catuaí",
+        "address": "Rua Jefferson Fernando Boiça, 167 - Jardim Catuaí",
+        "street": "Rua Jefferson Fernando Boiça",
+        "number": "167",
+        "receiverName": "Joelma Cristina Paiva",
+        "promisedShippingTime": "2024-04-27T02:59:59Z"
     },
     "buyer": {
-        "name": "Brenda Amorim",
-        "email": "LU-1308670710530349@alias.integracommerce.com.br",
-        "document": "86425150580",
+        "name": "Joelma Cristina Paiva",
+        "email": "7771kr0tg8vy9cr@marketplace.amazon.com.br",
+        "document": "03069674992",
         "documentType": "CPF",
-        "documentNumberNormalized": "86425150580"
-    },
-    "tracking": {
-        "number": "55098",
-        "carrier": "Baianao Moveis",
-        "date": "2024-02-05T10:24:00Z",
-        "estimateDate": "2024-02-15T03:00:00Z",
-        "shippedDate": "2024-02-05T10:24:00Z"
+        "phone": "43999703881",
+        "cellPhone": "43999703881",
+        "documentNumberNormalized": "03069674992"
     },
     "payments": [
         {
-            "method": "pix",
-            "value": 1002.8,
-            "installments": 1,
-            "marketplaceId": "0",
-            "paymentMethodNormalized": "PIX",
-            "paymentDetailNormalized": "PIX"
+            "method": "Other",
+            "status": "Pago",
+            "value": 238.0,
+            "marketplaceId": "A2Q3Y263D00KWC",
+            "paymentMethodNormalized": "OUTROS",
+            "paymentDetailNormalized": "OUTROS"
         }
     ],
     "items": [
         {
             "product": {
-                "id": 262959423,
-                "title": "Lavadora 10kg Suggar Lavamax Eco LE1001"
+                "id": 262959347,
+                "title": "Ventilador de Mesa Mondial VSP-30-B 30cm 6 Pás Preto"
             },
             "sku": {
-                "id": 88494280,
-                "title": "Lavadora 10kg Suggar Lavamax Eco LE1001",
-                "partnerId": "0063270001",
-                "ean": "7896518513117"
+                "id": 88494193,
+                "title": "Ventilador de Mesa Mondial VSP-30-B 30cm 6 Pás Preto",
+                "partnerId": "0096500001",
+                "ean": "7899882313833"
             },
             "amount": 2,
-            "unit": 479.9,
-            "gross": 959.8,
-            "total": 959.8,
+            "unit": 119.0,
+            "gross": 238.0,
+            "total": 238.0,
             "discount": 0.0,
             "shippings": [
                 {
-                    "id": 355246137,
-                    "shippingtype": "Baianão",
+                    "id": 372156928,
+                    "shippingtype": "DBA",
                     "shippingCarrierNormalized": "UNKNOWN",
                     "shippingCarrierTypeNormalized": "UNKNOWN"
                 }
             ],
-            "idInMarketPlace": "0063270001",
-            "orderItemId": 175547261,
+            "idInMarketPlace": "0096500001",
+            "marketPlaceId": "97698040215681",
+            "orderItemId": 186319920,
             "freeShipping": false,
             "stocks": [
                 {
@@ -113,14 +101,13 @@
         }
     ],
     "deliverStatus": "UNKNOWN",
-    "idAccount": 29714,
-    "fulfillment": true,
+    "idAccount": 13316,
+    "fulfillment": false,
     "metadata": {
         "needInvoiceXML": "true",
         "fiscalDocumentFileType": "xml",
-        "blocked_update_invoiced": "true"
+        "system_origin": "Amazon Spds",
+        "ShippingTypeToSend": "Não Informado"
     },
-    "documentIntermediator": "47960950000121",
-    "intermediateRegistrationId": "Baianao Moveis",
-    "documentPaymentInstitution": "17948578000177"
+    "orderTypeName": "DBA"
 }
